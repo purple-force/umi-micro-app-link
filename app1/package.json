@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "app1",
+  "author": "chenliandong <chenliandong@chipcoo.com>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@umijs/max": "^4.1.10"
+  }
+}
