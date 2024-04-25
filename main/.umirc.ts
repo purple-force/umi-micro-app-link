@@ -1,6 +1,8 @@
 import { defineConfig } from "@umijs/max";
 
 export default defineConfig({
+  model: {},
+  initialState: {},
   routes: [
     { path: "/", component: "index" },
     { path: "/docs", component: "docs" },

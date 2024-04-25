@@ -1,6 +1,7 @@
-import { defineConfig } from "umi";
+import { defineConfig } from "@umijs/max";
 
 export default defineConfig({
+  model: {},
   routes: [
     { path: "/", component: "index" },
     { path: "/docs", component: "docs" },
@@ -8,5 +9,5 @@ export default defineConfig({
   qiankun: {
     slave: {},
   },
-  npmClient: 'npm',
+  npmClient: "npm",
 });
