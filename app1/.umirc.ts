@@ -1,4 +1,4 @@
-import { defineConfig } from "umi";
+import { defineConfig } from "@umijs/max";
 
 export default defineConfig({
   model: {},
@@ -6,7 +6,8 @@ export default defineConfig({
     { path: "/", component: "index" },
     { path: "/docs", component: "docs" },
   ],
-  npmClient: 'npm',
+  npmClient: "npm",
+  publicPath: "/app1/",
   qiankun: {
     slave: {},
   },
