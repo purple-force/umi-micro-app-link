@@ -16,7 +16,7 @@
     "typescript": "^5.0.3"
   },
   "dependencies": {
-    "@umijs/max": "^4.3.31",
+    "@umijs/max": "^4.3.32",
     "lodash": "^4.17.21"
   }
 }
